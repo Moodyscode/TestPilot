@@ -1,8 +1,10 @@
 :root {
-  font-family: Inter, Arial, sans-serif;
-  color: #f4f4f5;
-  background: #0f0f17;
+  font-family: Inter, system-ui, Arial, sans-serif;
+  color: #f5f5fa;
+  background: #0b0d15;
   font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 * {
@@ -12,4 +14,9 @@
 body {
   margin: 0;
   min-width: 320px;
+}
+
+button,
+input {
+  font: inherit;
 }
