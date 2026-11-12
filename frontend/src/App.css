@@ -1,0 +1,73 @@
+
+#root {
+  width: 100%;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+header {
+  margin-bottom: 36px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #8b5cf6;
+}
+
+.api-tester {
+  background: #181825;
+  padding: 28px;
+  border-radius: 16px;
+}
+
+.api-tester form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.api-tester input {
+  padding: 14px;
+  border: 1px solid #44445a;
+  border-radius: 8px;
+  background: #10101a;
+  color: white;
+}
+
+.api-tester button {
+  margin-top: 12px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #8b5cf6;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.api-tester button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.test-result {
+  margin-top: 28px;
+  padding: 20px;
+  background: #10101a;
+  border-radius: 10px;
+}
+
+.test-result pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.error {
+  color: #fb7185;
+}

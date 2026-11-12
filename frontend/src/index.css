@@ -1,0 +1,15 @@
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: #f4f4f5;
+  background: #0f0f17;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
